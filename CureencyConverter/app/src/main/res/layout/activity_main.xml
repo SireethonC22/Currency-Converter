@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Currency (USD)"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="18dp"
+        />
+    
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="USD"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvTHB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency (THB)"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="21dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvUSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rates (USD)"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        />
+
+
+</LinearLayout>
